@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './About.css';
-import avatar from '../assets/avatar.png';
+import profile from '../assets/profile.jpg';
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -58,7 +58,7 @@ const About = () => {
           </div>
           <div className={`about-image ${isVisible ? 'fade-in' : ''}`}>
             <div className="about-image fade-in">
- <img src={avatar} alt="Profile" className="profile-photo" />
+ <img src={profile} alt="Profile" className="profile-photo" />
 </div>
 
           </div>

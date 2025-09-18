@@ -15,9 +15,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div key={project.id} className="project-card" style={{ animationDelay: `${index * 0.1}s` }}>
               <div className="project-image">
-                <div className="image-placeholder">
-                  <span className="placeholder-text">🖼️ Project Image</span>
-                </div>
+                <img src={project.image} alt={project.title} className="project-photo" />
               </div>
               
               <div className="project-content">

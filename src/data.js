@@ -1,5 +1,11 @@
 
 import avatar from './assets/avatar.png';
+import shopping from './assets/shopping.png';
+import weather from './assets/weather.png';
+import MLM from './assets/MLM.png';
+import chatbot from './assets/chatbot.png';
+import portfolio from './assets/portfolio.png';
+import task from './assets/task.png';
 export const skills = [
   { name: "React", level: 90 },
   { name: "JavaScript", level: 95 },
@@ -18,7 +24,7 @@ export const projects = [
     id: 1,
     title: "E-Commerce Platform",
     description: "Full-stack e-commerce application with React, Node.js, and MongoDB with user authentication and payment integration.",
-    image: {avatar},
+    image: shopping,
     liveLink: "https://github.com/ayush-yogi11",
     githubLink: "https://github.com/ayush-yogi11"
   },
@@ -26,7 +32,7 @@ export const projects = [
     id: 2,
     title: "AI Chatbot",
     description: "Intelligent chatbot using natural language processing and machine learning algorithms for customer support.",
-    image: "/api/placeholder/300/200",
+    image: chatbot,
     liveLink: "https://github.com/ayush-yogi11",
     githubLink: "https://github.com/ayush-yogi11"
   },
@@ -34,7 +40,7 @@ export const projects = [
     id: 3,
     title: "Weather Dashboard",
     description: "Real-time weather application with geolocation support and 7-day forecast using weather API integration.",
-    image: "/api/placeholder/300/200",
+    image: weather,
     liveLink: "https://github.com/ayush-yogi11",
     githubLink: "https://github.com/ayush-yogi11"
   },
@@ -42,7 +48,7 @@ export const projects = [
     id: 4,
     title: "Task Management App",
     description: "Collaborative task management tool with drag-and-drop functionality and real-time updates.",
-    image: "/api/placeholder/300/200",
+    image: task,
     liveLink: "https://github.com/ayush-yogi11",
     githubLink: "https://github.com/ayush-yogi11"
   },
@@ -50,7 +56,7 @@ export const projects = [
     id: 5,
     title: "Portfolio Website",
     description: "Responsive portfolio website built with React and modern CSS animations showcasing my projects.",
-    image: "/api/placeholder/300/200",
+    image: portfolio,
     liveLink: "https://github.com/ayush-yogi11",
     githubLink: "https://github.com/ayush-yogi11"
   },
@@ -58,7 +64,7 @@ export const projects = [
     id: 6,
     title: "Machine Learning Model",
     description: "Predictive analytics model using Python and scikit-learn for data classification and pattern recognition.",
-    image: "/api/placeholder/300/200",
+    image: MLM,
     liveLink: "https://github.com/ayush-yogi11",
     githubLink: "https://github.com/ayush-yogi11"
   }

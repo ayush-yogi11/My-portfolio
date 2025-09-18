@@ -149,8 +149,8 @@
   margin: 0;
 }
 .profile-photo {
-  width: 300px;
-  height: 300px;
+  width: 540px;
+  height: 600px;
   border-radius: 20px;
   object-fit: cover; /* makes sure your photo scales properly */
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
